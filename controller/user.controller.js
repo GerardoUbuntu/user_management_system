@@ -29,7 +29,7 @@ module.exports = {
     const result = await editUser(user).catch((err) => {
       return res.status(status.INTERNAL_SERVER_ERROR).json({ message: err });
     });
-    return res.status(status.OK).json({ data: result });
+    return res.status(status.OK).json({ message: result });
   },
 
   deleteUser: async (req, res) => {

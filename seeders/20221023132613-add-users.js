@@ -44,8 +44,6 @@ module.exports = {
       });
     }
 
-    console.log(users);
-
     await queryInterface.bulkInsert('users', users, {});
   },
 
