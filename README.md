@@ -70,8 +70,8 @@ npm run start
 - Update User
   PUT http://localhost:8000/api/v1/users/{id}
 
-- Update User
-  PUT http://localhost:8000/api/v1/users/{id}
+- Delete User
+  DELETE http://localhost:8000/api/v1/users/{id}
 
 ## Api docs
 
